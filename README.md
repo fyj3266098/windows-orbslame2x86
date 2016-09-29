@@ -8,6 +8,10 @@ with gcc,i change those codes to "int *a = new int[size]." to make this project 
 memory cos You will always restart your execution file.In my project I build a useable project but not a demo.Later i will
 update it.I need mention that in g2o i have ever come across internal error with vs2013,i make some tips to fix it.
 
+I only compile successfully in x86 structure and this project only return R&T matrix of camera.If you has the need to use x64
+structure, I think you can use shared memory to communicate x64 project.(In my project ,i use x86 orbslam to deal with the images
+which is get from zed camera that only has x64 sdk)
+
 #Build Instructions
 
 The orbslam2byfyj.sln solution should be built with Visual Studio 2013 or greater. 
